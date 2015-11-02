@@ -1,0 +1,18 @@
+package:
+    name: common2_y
+    version: 0.2.0
+
+
+source:
+    path: ../
+
+requirements:
+    build:
+       - python
+       - numpy >=1.9
+       - pandas >=0.15.2
+       - setuptools
+
+    run:
+       - python
+       - common1_y          0.1.0                   np19py27_0

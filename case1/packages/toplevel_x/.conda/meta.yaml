@@ -1,0 +1,17 @@
+package:
+    name: toplevel_x
+    version: 1.0.0
+
+source:
+    path: ../
+
+requirements:
+    build:
+       - python
+
+    run:
+       - python             2.7*
+       - numpy              1.9.2                   py27_0
+       - pandas             0.15.2                  np19py27_1
+       - common1_x          0.1.0                   py27_0
+       - common2_x          0.2.0                   py27_0

@@ -1,0 +1,61 @@
+{
+  "common1_y-0.1.0-np19py27_0.tar.bz2": {
+    "arch": "x86_64", 
+    "build": "np19py27_0", 
+    "build_number": 0, 
+    "depends": [
+      "coverage           3.7.1                   py27_0", 
+      "nose               1.3.7                   py27_0", 
+      "numpy              1.9.2                   py27_0", 
+      "pandas             0.15.2                  np19py27_1", 
+      "python 2.7*", 
+      "python-dateutil    2.4.1                   py27_0", 
+      "pytz               2015.4                  py27_0", 
+      "six                1.9.0                   py27_0"
+    ], 
+    "md5": "4668319c378febfce585625ea8a10d19", 
+    "mtime": 1446468159.805857, 
+    "name": "common1_y", 
+    "platform": "win", 
+    "sig": null, 
+    "size": 1274, 
+    "subdir": "win-64", 
+    "version": "0.1.0"
+  }, 
+  "common2_y-0.2.0-py27_0.tar.bz2": {
+    "arch": "x86_64", 
+    "build": "py27_0", 
+    "build_number": 0, 
+    "depends": [
+      "common1_y          0.1.0                   np19py27_0", 
+      "python 2.7*"
+    ], 
+    "md5": "9df99f904053b56fbc392383b84b0d2e", 
+    "mtime": 1446475282.6358569, 
+    "name": "common2_y", 
+    "platform": "win", 
+    "sig": null, 
+    "size": 1148, 
+    "subdir": "win-64", 
+    "version": "0.2.0"
+  }, 
+  "toplevel_y-1.0.0-np19py27_0.tar.bz2": {
+    "arch": "x86_64", 
+    "build": "np19py27_0", 
+    "build_number": 0, 
+    "depends": [
+      "common2_y          0.2.0                   py27_0", 
+      "numpy              1.9.2                   py27_0", 
+      "pandas             0.15.2                  np19py27_1", 
+      "python             2.7*"
+    ], 
+    "md5": "c257d4d197493ae2d11be9517e4f3ef7", 
+    "mtime": 1446469161.0278568, 
+    "name": "toplevel_y", 
+    "platform": "win", 
+    "sig": null, 
+    "size": 1178, 
+    "subdir": "win-64", 
+    "version": "1.0.0"
+  }
+}

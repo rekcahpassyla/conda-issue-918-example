@@ -1,0 +1,16 @@
+package:
+    name: toplevel_y
+    version: 1.0.0
+
+source:
+    path: ../
+
+requirements:
+    build:
+       - python
+
+    run:
+       - python             2.7*
+       - numpy              1.9.2                   py27_0
+       - pandas             0.15.2                  np19py27_1
+       - common2_y          0.2.0                   py27_0
